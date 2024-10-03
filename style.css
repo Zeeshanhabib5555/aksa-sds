@@ -1,7 +1,13 @@
 
+body{
+    overflow-x: hidden;
+}
 
 
-
+.services-section .nav-link{
+    /* width: 300px; */
+    width: auto;
+}
 .hero-section{
     height: 100vh;
     width: auto;
@@ -39,19 +45,507 @@
 .nav-link.active{
     color: white;
 }
-.contact-us{
-    /* background-color: #f5f5f5; */
+.contact-us{  
     border-color: #ffffff;
     font-weight: 400;
     cursor: pointer;
-    /* color: #207C7E; */
     color: #ffffff;
 }
 
 button.contact-us:hover{
     background-color: #207C7E;
-    color: #222;
+    /* color: #222; */
+    color: #ffffff;
     
 }
 
+ /* A Leading Technology Company CSS Start    */
+
+ .projects{
+        border: #207C7E;
+ }
+
+ /* A Leading Technology Company CSS End    */
+
+ .services-section{
+    background-color: #000000;
+    color: #ffffff;
+    height: auto;
+    width: auto;
+ }
+
+ .sub-heading {
+    border-radius: 6px;
+    border: 1px solid #ffffff; 
+    background-color: #262626;
+    height: 50px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sub-heading p{
+    margin-top: 16px;
+}
+
+.view-more{  
+    font-weight: 400;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #207C7E;
+}
+button.view-more:hover{
+    background-color: #ffffff;
+    color: #207C7E;
+    
+}
+
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link {
+    color: white;
+    background-color: #207C7E;
+    margin-bottom: 20px;
+}
+.services-section .nav-link:focus, .nav-link:hover {
+    color: white;
+    background-color: #207C7E;
+}
+.count{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* Core Values Section CSS Start */
+.core-values{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.core-values .core-values-services{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #207C7E;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+/* .core-values-services i{
+    color: #207C7E;
+} */
+.core-values .core-values-services p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.core-values .core-service-1:hover{
+    background-image: url('Assets/images/customer-centr.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #ffffff;
+    cursor: pointer;
+}
+.core-values .core-service-2:hover{
+    background-image: url('Assets/images/inovation.webp'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #fff;
+    cursor: pointer;
+}
+.core-values .core-service-3:hover{
+    background-image: url('Assets/images/collaboration.webp'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #fff;
+    cursor: pointer;
+}
+.core-values .core-service-4:hover{
+    background-image: url('Assets/images/sustainibility.webp'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Core Values Section CSS End */
+
+
+/* Image in Industries Section Start  */
+.scroll-image img{
+    height: 400px;
+    width: 300px;
+    border-radius: 200px;
+}
+
+.main-content{
+    height: auto;
+    width: 100vw;
+    background-color: #005BAA;
+    color: #fff;
+}
+
+.main-content .content h3{
+    color: #32D8DC;
+}
+
+.services-text .service-{
+    margin-bottom: 200px;
+} 
+/* Image in Industries Section End  */
+
+
+
+/* Our Partner Section Start  */
+
+.our-partners img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 10s linear infinite;
+  }
   
+  .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 8em;
+    overflow: hidden;
+  }
+
+  
+  .slider {
+    background-color: #ffffff;
+    padding: 2em 1em;
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
+
+/* Our Partner Section End  */
+
+
+/* Contact Us Section Start  */
+
+.contact-us {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .contact-btn1 {
+    font-weight: 400;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #207C7E;
+    border-radius: 20px;
+}
+
+.contact-btn1:hover{
+    color: #207C7E;
+    background-color: #ffffff;
+}
+
+.contact-btn2 {
+    font-weight: 400;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #005BAA;
+    border-radius: 20px;
+}
+
+.contact-btn2:hover{
+    color: #005BAA;
+    background-color: #ffffff;
+}
+  
+
+/* Contact Us Section End  */
+
+
+
+/* Footer Section Start  */
+.footer{
+    background-color: #E6E7E8;
+}
+
+.single_footer ul li a:before {
+    /* content: "-"; */
+    font-family: "LineAwesome";
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    margin-right: 6px;
+}
+
+.single_footer ul li a{
+line-height: 36px;
+    font-size: 16px;
+    font-weight: 400;
+    /* text-transform: capitalize; */
+}
+
+.single_footer a{
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.single_footer h4{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.single_footer a:hover{
+    color: #207C7E;
+}
+
+.footer-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer-icons i{
+    width: 24px; 
+    height: 24px; 
+    font-size: 24px;
+    color: #207C7E;
+}
+
+.footer-icons i:hover{
+    color: #005BAA;
+    cursor: pointer;
+}
+
+.footer_copyright{
+    
+    background-color: rgba(0, 0, 0, 0.66);
+    color: #fff;
+    height: auto;
+    
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0; /* Removes the default padding */
+    margin: 0; /* Removes any default margin */
+}
+
+/* Footer Section End  */
+
+
+/* A Leading Technology Start  */
+
+#counter:hover{
+    color: #005BAA;
+    cursor: pointer;
+}
+
+/* A Leading Technology End  */
+
+
+.content1 {
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+
+/* Industries We Serve Section Start  */
+
+/* .indus-span{
+    color: #32D8DC;
+}
+    */
+.indus-image img{
+    height: 500px;
+    width: 300px;
+    border-radius: 200px;
+    
+}
+/*
+.content {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.content:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+.content > div {
+	flex: 1 1 calc(992px / 2);
+}
+.img {
+	height: 100vh;
+	position: sticky;
+	top: 0;
+}
+.img img {
+	width: 60%;
+	height: 80%;
+	object-fit: cover;
+    border-radius: 200px;
+    margin-top: 1rem;
+}
+.text {
+	padding: 1.25rem;
+}
+
+.title {
+	font-size: 3rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+p {
+	margin-bottom: 1rem;
+}
+
+.services-text .service-{
+    margin-bottom: 100px;
+} */
+
+/* Industries We Serve Section End  */
+
+/* 
+@media screen and (max-width: 991px) {
+	.img {
+		position: static;
+	}
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.content {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.content:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+.content > div {
+	flex: 1 1 calc(992px / 2);
+}
+.img {
+	height: 100vh;
+	position: sticky;
+	top: 0;
+}
+
+.img1{
+    position: sticky;
+    top: 5%;
+}
+
+.img1 img {
+	width: 60vh;
+	height: 100vh;
+	object-fit: cover;
+    margin-top: 10px;
+}
+.img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.text {
+	padding: 1.25rem;
+}
+.images {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.images img {
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+}
+.title {
+	font-size: 3rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+p {
+	margin-bottom: 1rem;
+}
+.sub-title {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	font-weight: 600;
+}
+.industries-section{
+    background-color: #1c1c1c;
+    /* background-color: #005BAA; */
+    color: #fff;
+}
+.industries-section h1{
+    color: #32D8DC;
+}
+.content h2{
+    color: #32D8DC;
+}
+
+
+@media screen and (max-width: 991px) {
+	.img {
+		position: static;
+	}
+}
+
+
+/* Industries We Serve Section Css Start  */
+
+.img1 img {
+    transition: transform 1.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+  }
+  
+  .img1 img.up {
+    transform: translateY(-30px);
+    opacity: 0.9;
+  }
+  
+  .img1 img.down {
+    transform: translateY(30px);
+    opacity: 0.9; 
+  }
